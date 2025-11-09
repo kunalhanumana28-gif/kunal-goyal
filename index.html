@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Chen - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Updated logo class name to nav-brand -->
+            <div class="nav-brand">Alex Chen</div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Updated hamburger class name to nav-toggle -->
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <!-- Added profile image to hero section -->
+            <div class="profile-image-container">
+                <img src="/image/1.png" alt="Profile" class="profile-image">
+            </div>
+            <div class="hero-text">
+                <h1>Full Stack Developer</h1>
+                <p>Building scalable web applications with modern technologies</p>
+                <p class="subtitle">I create elegant solutions to complex problems</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-block">
+                    <div class="code-line"><span class="keyword">const</span> developer = {</div>
+                    <div class="code-line indent">name: <span class="string">"Alex Chen"</span>,</div>
+                    <div class="code-line indent">skills: [<span class="string">"React"</span>, <span class="string">"Node.js"</span>, <span class="string">"TypeScript"</span>],</div>
+                    <div class="code-line indent">passion: <span class="string">"Building great UX"</span></div>
+                    <div class="code-line">}</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I'm a passionate full-stack developer with 5+ years of experience building web applications that users love. My journey started with a curiosity about how things work, which led me into the world of software development.</p>
+                <p>I specialize in creating responsive, performant applications using React, Node.js, and modern web technologies. I believe in writing clean, maintainable code and paying attention to detail in every aspect of development.</p>
+                <p>When I'm not coding, you can find me contributing to open-source projects, writing technical blog posts, or exploring new technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>E-Commerce Platform</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View →</a>
+                        </div>
+                    </div>
+                    <p class="project-description">A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Stripe</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Task Management App</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View →</a>
+                        </div>
+                    </div>
+                    <p class="project-description">Collaborative task management tool with real-time updates, team workspaces, and advanced filtering capabilities.</p>
+                    <div class="project-tags">
+                        <span class="tag">Next.js</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Tailwind</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Analytics Dashboard</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View →</a>
+                        </div>
+                    </div>
+                    <p class="project-description">Real-time analytics dashboard with interactive charts, data visualization, and custom report generation.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">D3.js</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Social Media API</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View →</a>
+                        </div>
+                    </div>
+                    <p class="project-description">Robust REST API for a social media platform with authentication, real-time messaging, and media uploads.</p>
+                    <div class="project-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">JWT</span>
+                        <span class="tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>React / React Hooks</li>
+                        <li>TypeScript</li>
+                        <li>Tailwind CSS</li>
+                        <li>Next.js</li>
+                        <li>HTML5 / CSS3</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Python</li>
+                        <li>RESTful APIs</li>
+                        <li>GraphQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
+                        <li>Firebase</li>
+                        <li>Redis</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <ul>
+                        <li>Git / GitHub</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>VS Code</li>
+                        <li>Linux</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p class="contact-subtitle">I'm always interested in hearing about new projects and opportunities.</p>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Other Ways to Reach Me</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="mailto:alex@example.com" class="social-link">Email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Alex Chen. All rights reserved.</p>
+            <p class="footer-text">Built with HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
